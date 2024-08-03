@@ -23,7 +23,7 @@ const deleteNote =(id) =>{
 
   return (
    <>
-   <div class="conatiner w-[100vw] h-[100vh] flex justify-center items-center overflow-hidden gap-5 flex-wrap" ref={constraintsRef}>
+   <div class="conatiner w-[100vw] h-[100vh] flex justify-center items-center  gap-5 flex-wrap" ref={constraintsRef}>
     <div class="addNotes fixed top-[10%] left-[10%] translate-x-[-50%] translate-y-[-50%] w-[120px] h-12 bg-black rounded-full text-zinc-50 flex justify-center items-center cursor-pointer" onClick={addNote}><h1>Notes<i class="ri-add-line"></i></h1></div>
 {
     notes.map((item,ind)=>{
